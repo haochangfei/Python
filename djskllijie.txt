@@ -1,0 +1,16 @@
+开始网址（startUrl）：
+	找到该网址内所有链接内网的网址，
+	构造图字典：
+		key为startUrl 
+		value为一个字典 每个网址为key value为距离1
+		遍历字典startUrl 
+		添加图字典 key为 字典startUrl内的每一个子字典
+
+eg：
+	http://www.bztc.edu.cn/
+ 
+	http://jsjy.bzu.edu.cn/
+	
+		
+
+	
