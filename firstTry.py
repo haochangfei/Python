@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 
 
-def getWebText(url):
+def getWebText(url):##得到网页源码
     req = requests.get(url)
     req.encoding = "utf-8"
     return req.text
